@@ -19,11 +19,11 @@ The designs were created to the following widths:
 
 - White (main heading, stats): hsl(0, 0%, 100%)
 - Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
-- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
 
 ## Typography
 
-### Body Copy
+### Body Copy- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+
 
 - Font size: 15px
 
