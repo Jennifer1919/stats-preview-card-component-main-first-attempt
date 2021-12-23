@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 10px;right: 50%;}
+    .attribution a { color: hsl(228, 45%, 44%);}
+
+    body{
+      background-color: hsl(233, 47%, 7%);
+    }
+    #title{
+      color:hsl(0, 0%, 100%);
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-style: bold;
+      font-size: 2em;
+    }
+    #description{
+      color:hsla(0, 0%, 100%, 0.75) ;
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: 60px;
+    
+    }
+    .number{
+      color:hsl(0, 0%, 100%) ;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 2em;
+     
+    }
+    
+    #stats-headings{
+      color:hsla(0, 0%, 100%, 0.6);
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      
+    }
+    #text{
+      background-color: hsl(244, 38%, 16%);
+      padding-top:80px;
+      padding-left:80px;
+      position:absolute;
+      top:25%;
+      left:12.5%;
+      right:50%;
+      bottom:25%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+
+      
+    }
+    #insights{
+      color: hsl(277, 64%, 61%);
+    }
+
+    table{
+      table-layout: fixed;
+      width: 80%;
+    }
+
+    #image{
+      height:50%;
+      position:absolute;
+      top:25%;
+      right:12.5%;
+      left:50%;
+      bottom:25%;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    #violetbox{
+      height:50%;
+      position:absolute;
+      top:25%;
+      right:14.5%;
+      left:50%;
+      bottom:25%;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color:hsl(277, 64%, 61%, 0.8) ;
+    }
+  
+    
+  
+  </style>
+</head>
+<body>
+
+  <div id="text">
+     <h1 id="title">Get <span id="insights">insights</span> that help <br> your business grow.</h1> 
+
+ <p id ="description">Discover the benefits of data analytics and make <br> better decisions regarding revenue, customer <br>
+  experience, and overall efficiency.</p> 
+
+  <table>
+      <tr>
+        <td class= "number">10k+</td>
+        <td class= "number">314</td>
+        <td class= "number" >12M+</td>
+      </tr>
+      <tr id="stats-headings">
+        <td>COMPANIES</td>
+        <td>TEMPLATES</td>
+        <td>QUERIES</td>
+      </tr>
+  </table> 
+  </div>
+   
+    <img src="images/image-header-desktop.jpg" alt="People working together"id="image">
+   <div id ="violetbox"></div>
+
+ 
+ 
+   
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jennifer</a>.
+  </div>
+</body>
+</html>
